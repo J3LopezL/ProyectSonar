@@ -17,8 +17,11 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python }}
-      - name: Test coverage
-        run: npm run test
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm run build --if-present
+          npm test
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
