@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1667361855699" clover="3.2.0">
-  <project timestamp="1667361855699" name="All files">
+<coverage generated="1667362410124" clover="3.2.0">
+  <project timestamp="1667362410124" name="All files">
     <metrics statements="250" coveredstatements="149" conditionals="25" coveredconditionals="19" methods="52" coveredmethods="31" elements="327" coveredelements="199" complexity="0" loc="250" ncloc="250" packages="7" files="20" classes="20"/>
     <package name="src">
       <metrics statements="27" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
@@ -187,7 +187,7 @@
         <line num="44" count="3" type="stmt"/>
         <line num="45" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="46" count="1" type="stmt"/>
-        <line num="48" count="10" type="stmt"/>
+        <line num="48" count="9" type="stmt"/>
         <line num="50" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="51" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
@@ -310,17 +310,17 @@
       <file name="business-errors.interceptor.ts" path="/home/jlopez/ProyectSonar/src/shared/interceptors/business-errors.interceptor.ts">
         <metrics statements="12" coveredstatements="4" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.shared.testing-utils">
